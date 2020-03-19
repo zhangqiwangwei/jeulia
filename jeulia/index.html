@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div v-text="myText"></div>
+    <input type="text" v-model="myText">
+</div>
+
+</body>
+<script>
+    var jeulia = new Jeulia({
+        el: "#app",
+        data: {
+            count: 5,
+            val: "zq"
+        }
+    });
+</script>
+</html>
